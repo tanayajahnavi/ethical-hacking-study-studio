@@ -1,0 +1,3749 @@
+[
+  {
+    "id": "w1-a1",
+    "week": 1,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "multi",
+    "prompt": "Which of the following belong to the CIA Triad in information security?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "b",
+        "text": "Authentication"
+      },
+      {
+        "key": "c",
+        "text": "Availability"
+      },
+      {
+        "key": "d",
+        "text": "Accountability"
+      },
+      {
+        "key": "e",
+        "text": "Integrity"
+      },
+      {
+        "key": "f",
+        "text": "Authorization"
+      }
+    ],
+    "correct": [
+      "a",
+      "c",
+      "e"
+    ],
+    "answerText": "a, c, e",
+    "explanation": "The CIA Triad consists of Confidentiality, Integrity, and Availability. Authentication, non-repudiation, accountability, and authorization are important security concepts but are not part of the core CIA Triad. Thus, the correct options are (a), (c), and (e)."
+  },
+  {
+    "id": "w1-a2",
+    "week": 1,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "single",
+    "prompt": "Which of the following penetration testing models provides the tester with no prior information about the target network?",
+    "options": [
+      {
+        "key": "a",
+        "text": "White box model"
+      },
+      {
+        "key": "b",
+        "text": "Black box model"
+      },
+      {
+        "key": "c",
+        "text": "Gray box model"
+      },
+      {
+        "key": "d",
+        "text": "Blue box model"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "In the white box model, the tester has complete information about the network. In the black box model, the tester has no information about the network. The grey box model provides partial information. There is no standard model called the blue box model. Thus, the correct option is (b)."
+  },
+  {
+    "id": "w1-a3",
+    "week": 1,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are true for packet-switched networks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Bandwidth is dedicated for the entire duration of a session."
+      },
+      {
+        "key": "b",
+        "text": "Multiple connections can share the same communication link."
+      },
+      {
+        "key": "c",
+        "text": "Delay is always constant regardless of network load."
+      },
+      {
+        "key": "d",
+        "text": "It requires end-to-end circuit setup before data transfer."
+      },
+      {
+        "key": "e",
+        "text": "Data is divided into smaller packets before transmission."
+      },
+      {
+        "key": "f",
+        "text": "It guarantees zero packet loss under all conditions."
+      }
+    ],
+    "correct": [
+      "b",
+      "e"
+    ],
+    "answerText": "b, e",
+    "explanation": "In packet switching, communication links may be shared by more than one connection, and data is broken into smaller packets before transmission. Dedicated bandwidth and constant delay are characteristics of circuit switching. Packet switching does not require prior circuit setup, and it does not guarantee zero packet loss. Thus, the correct options are (b) and (e)."
+  },
+  {
+    "id": "w1-a4",
+    "week": 1,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "single",
+    "prompt": "Which OSI layer is primarily responsible for framing, MAC addressing, and error detection over a physical link?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Physical layer"
+      },
+      {
+        "key": "b",
+        "text": "Data link layer"
+      },
+      {
+        "key": "c",
+        "text": "Network layer"
+      },
+      {
+        "key": "d",
+        "text": "Transport layer"
+      },
+      {
+        "key": "e",
+        "text": "Session layer"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "The data link layer organizes bits into frames, provides MAC addressing, and performs error detection over a point-to-point or shared link. The physical layer deals with raw bit transmission, and the network layer handles routing and logical addressing. NPTEL Online Certification Courses Indian Institute of Technology Kharagpur Thus, the correct option is (b)."
+  },
+  {
+    "id": "w1-a6",
+    "week": 1,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "single",
+    "prompt": "What is the primary purpose of an IP address in a network?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It identifies the physical hardware manufacturer of a device."
+      },
+      {
+        "key": "b",
+        "text": "It uniquely identifies a host or interface on a network."
+      },
+      {
+        "key": "c",
+        "text": "It specifies the number of open ports on a system."
+      },
+      {
+        "key": "d",
+        "text": "It determines the encryption algorithm used by a host."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "An IP address is a logical address that uniquely identifies a host or a specific network interface, enabling routing of packets to the correct destination. It is unrelated to hardware manufacturer identification, open ports, or encryption. Thus, the correct option is (b)."
+  },
+  {
+    "id": "w1-a8",
+    "week": 1,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "single",
+    "prompt": "Which IP header field is decremented at every router hop and is primarily used to prevent packets from looping indefinitely in a network?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Header checksum"
+      },
+      {
+        "key": "b",
+        "text": "Fragment offset"
+      },
+      {
+        "key": "c",
+        "text": "Time to Live (TTL)"
+      },
+      {
+        "key": "d",
+        "text": "HLEN"
+      },
+      {
+        "key": "e",
+        "text": "Identification"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "The Time to Live (TTL) field is decremented by 1 at every router hop. When it reaches 0, the packet is discarded, preventing it from looping indefinitely in the network. Header checksum is used for error detection, fragment offset and identification are used for reassembly, and HLEN indicates header length. Thus, the correct option is (c)."
+  },
+  {
+    "id": "w2-a2",
+    "week": 2,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "multi",
+    "prompt": "Which of the following is/are true for TCP header flag bits?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SYN=1, ACK=0 indicates a connection request."
+      },
+      {
+        "key": "b",
+        "text": "SYN=1, ACK=1 indicates connection confirmation."
+      },
+      {
+        "key": "c",
+        "text": "FIN flag is used to reject a connection."
+      },
+      {
+        "key": "d",
+        "text": "RST flag is used to gracefully terminate a connection."
+      },
+      {
+        "key": "e",
+        "text": "URG flag indicates urgent data in the segment."
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "e"
+    ],
+    "answerText": "a, b, e",
+    "explanation": "SYN=1, ACK=0 is a connection request; SYN=1, ACK=1 is connection confirmation; URG flag indicates urgent data. FIN is used for graceful connection termination (not rejection), and RST is used to abruptly reset/reject a connection (not graceful termination). Thus, the correct options are (a), (b), and (e)."
+  },
+  {
+    "id": "w2-a3",
+    "week": 2,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "multi",
+    "prompt": "Which of the following represents a valid broadcast address for its respective subnet (as specified)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "10.255.255.255 for network 10.0.0.0/8"
+      },
+      {
+        "key": "b",
+        "text": "10.20.0.0 for network 10.20.0.0/16"
+      },
+      {
+        "key": "c",
+        "text": "192.168.5.255 for network 192.168.5.0/24"
+      },
+      {
+        "key": "d",
+        "text": "172.16.255.0 for network 172.16.0.0/16"
+      },
+      {
+        "key": "e",
+        "text": "192.168.5.0 for network 192.168.5.0/24"
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "answerText": "a, c",
+    "explanation": "For 10.0.0.0/8, the host portion is 24 bits, so broadcast address = 10.255.255.255 (all host bits set to 1). For 192.168.5.0/24, the host portion is 8 bits, so broadcast address = 192.168.5.255. Option (b) is the network address, not broadcast. Option (d) is incorrect since for /16, broadcast address should be 172.16.255.255, not 172.16.255.0. Option (e) is the network address, not a broadcast address. Thus, the correct options are (a) and (c)."
+  },
+  {
+    "id": "w2-a4",
+    "week": 2,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "single",
+    "prompt": "An IP packet arrives at the final destination with D flag = 0, M flag = 0, and offset = 5. Which of the following is true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The packet has not been fragmented."
+      },
+      {
+        "key": "b",
+        "text": "The packet is the first fragment."
+      },
+      {
+        "key": "c",
+        "text": "The packet is the last fragment of a fragmented packet."
+      },
+      {
+        "key": "d",
+        "text": "The packet will be dropped due to invalid flags"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "M = 0 indicates no more fragments follow, meaning this is the last fragment. A non-zero offset (5) confirms fragmentation has occurred, ruling out option (a). Hence, it is the last fragment of a fragmented packet. Thus, the correct option is (c)."
+  },
+  {
+    "id": "w2-a5",
+    "week": 2,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "multi",
+    "prompt": "Which of the following IP address ranges are reserved for private use?",
+    "options": [
+      {
+        "key": "a",
+        "text": "10.0.0.0 to 10.255.255.255"
+      },
+      {
+        "key": "b",
+        "text": "100.64.0.0 to 100.127.255.255"
+      },
+      {
+        "key": "c",
+        "text": "172.16.0.0 to 172.31.255.255"
+      },
+      {
+        "key": "d",
+        "text": "192.168.0.0 to 192.168.255.255"
+      },
+      {
+        "key": "e",
+        "text": "169.254.0.0 to 169.254.255.255"
+      },
+      {
+        "key": "f",
+        "text": "224.0.0.0 to 239.255.255.255"
+      }
+    ],
+    "correct": [
+      "a",
+      "c",
+      "d"
+    ],
+    "answerText": "a, c, d",
+    "explanation": "The private IP ranges as per RFC 1918 are 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. 169.254.x.x is reserved for link-local addressing (APIPA), 100.64 to 100.127 is for CGNET, and 224.0.0.0 to 239.255.255.255 is the Class D multicast range. Thus, the correct options are (a), (c), and (d)."
+  },
+  {
+    "id": "w2-a6",
+    "week": 2,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "multi",
+    "prompt": "Which of the following well-known port number(s) is/are correctly matched with their corresponding service?",
+    "options": [
+      {
+        "key": "a",
+        "text": "HTTP – 80"
+      },
+      {
+        "key": "b",
+        "text": "FTP – 21"
+      },
+      {
+        "key": "c",
+        "text": "SSH – 25"
+      },
+      {
+        "key": "d",
+        "text": "DNS – 23"
+      },
+      {
+        "key": "e",
+        "text": "Telnet – 53"
+      },
+      {
+        "key": "f",
+        "text": "SMTP – 22"
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "answerText": "a, b",
+    "explanation": "HTTP uses port 80, FTP uses port 21, DNS uses port 53, and Telnet uses port 23, SSH uses port 22, and SMTP uses port 25. Thus the correct options are (a) and (b)."
+  },
+  {
+    "id": "w2-a7",
+    "week": 2,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "single",
+    "prompt": "What is the subnet mask corresponding to CIDR notation /26?",
+    "options": [
+      {
+        "key": "a",
+        "text": "255.255.255.0"
+      },
+      {
+        "key": "b",
+        "text": "255.255.255.128"
+      },
+      {
+        "key": "c",
+        "text": "255.255.255.192"
+      },
+      {
+        "key": "d",
+        "text": "255.255.255.224"
+      },
+      {
+        "key": "e",
+        "text": "255.255.255.240"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "/26 means 26 network bits, leaving 6 host bits. The last octet becomes 11000000 = 192. So the subnet mask is 255.255.255.192. Thus the correct option is (c)."
+  },
+  {
+    "id": "w2-a8",
+    "week": 2,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are true about IPv4 fragmentation and the \"Don't Fragment\" (DF) bit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "If DF = 1 and packet size exceeds MTU, the packet is dropped and an error is generated."
+      },
+      {
+        "key": "b",
+        "text": "If DF = 1, the router fragments the packet regardless of size."
+      },
+      {
+        "key": "c",
+        "text": "If DF = 0, fragmentation is allowed if necessary."
+      },
+      {
+        "key": "d",
+        "text": "DF bit is part of the Fragment Offset field."
+      },
+      {
+        "key": "e",
+        "text": "DF = 1 guarantees the packet will always reach its destination."
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "answerText": "a, c",
+    "explanation": "If DF = 1 and the packet exceeds the outgoing MTU, the router drops the packet and typically sends an ICMP \"Fragmentation Needed\" error. If DF = 0, fragmentation is permitted when required. DF is part of the Flags field, not Fragment Offset, and setting DF=1 does not guarantee delivery. Thus the correct options are (a) and (c)."
+  },
+  {
+    "id": "w3-a1",
+    "week": 3,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are true regarding connectionless routing used by the IP protocol?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Each packet is treated as an independent unit for routing decisions."
+      },
+      {
+        "key": "b",
+        "text": "A fixed path is established before any packet is transmitted."
+      },
+      {
+        "key": "c",
+        "text": "Different packets between the same source and destination may follow different paths."
+      },
+      {
+        "key": "d",
+        "text": "IP protocol uses connection-oriented routing."
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "answerText": "a, c",
+    "explanation": "Review the relevant Week 3 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w3-a2",
+    "week": 3,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "single",
+    "prompt": "Which of the following statement(s) is/are false regarding direct and indirect packet delivery?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Direct delivery occurs when the destination host and deliverer are on the same physical network."
+      },
+      {
+        "key": "b",
+        "text": "Indirect delivery occurs when the destination host is not on the same network as the deliverer."
+      },
+      {
+        "key": "c",
+        "text": "In direct delivery, packets always pass through at least one router."
+      },
+      {
+        "key": "d",
+        "text": "In indirect delivery, the packet is routed hop by hop until it reaches a router on the destination's network."
+      },
+      {
+        "key": "e",
+        "text": "Direct delivery can occur between the last router and the destination host. NPTEL Online Certification Courses Indian Institute of Technology Kharagpur"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 3 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w3-a3",
+    "week": 3,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "single",
+    "prompt": "Which routing table flag indicates that a route is specific to a single host rather than an entire network?",
+    "options": [
+      {
+        "key": "a",
+        "text": "U"
+      },
+      {
+        "key": "b",
+        "text": "G"
+      },
+      {
+        "key": "c",
+        "text": "H"
+      },
+      {
+        "key": "d",
+        "text": "D"
+      },
+      {
+        "key": "e",
+        "text": "M"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 3 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w3-a4",
+    "week": 3,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "single",
+    "prompt": "In the OSPF routing protocol, which type of packet is used to determine whether a neighboring router is active?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Link State Update"
+      },
+      {
+        "key": "b",
+        "text": "Link State Request"
+      },
+      {
+        "key": "c",
+        "text": "Hello packet"
+      },
+      {
+        "key": "d",
+        "text": "Link State Acknowledgement"
+      },
+      {
+        "key": "e",
+        "text": "TCP SYN packet"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 3 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w3-a5",
+    "week": 3,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "single",
+    "prompt": "Which type of address should be used when a packet needs to be delivered to every host within a specific network?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unicast address"
+      },
+      {
+        "key": "b",
+        "text": "Broadcast address"
+      },
+      {
+        "key": "c",
+        "text": "Anycast address"
+      },
+      {
+        "key": "d",
+        "text": "None of these"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 3 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w3-a6",
+    "week": 3,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are false regarding routing protocols?",
+    "options": [
+      {
+        "key": "a",
+        "text": "RIP uses distance vector routing and can suffer from the count-to-infinity problem."
+      },
+      {
+        "key": "b",
+        "text": "OSPF is a link-state routing protocol."
+      },
+      {
+        "key": "c",
+        "text": "BGP is used for routing within a single autonomous system."
+      },
+      {
+        "key": "d",
+        "text": "OSPF uses Dijkstra's algorithm to compute shortest paths."
+      },
+      {
+        "key": "e",
+        "text": "RIP is typically used for routing between different autonomous systems."
+      }
+    ],
+    "correct": [
+      "c",
+      "e"
+    ],
+    "answerText": "c, e",
+    "explanation": "Review the relevant Week 3 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w3-a7",
+    "week": 3,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "single",
+    "prompt": "What is the address used to represent the default route in a routing table (in IPv4)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "127.0.0.1"
+      },
+      {
+        "key": "b",
+        "text": "255.255.255.255"
+      },
+      {
+        "key": "c",
+        "text": "0.0.0.0"
+      },
+      {
+        "key": "d",
+        "text": "192.0.0.1"
+      },
+      {
+        "key": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 3 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w3-a8",
+    "week": 3,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are false regarding IPv6?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IPv6 supports address classes similar to IPv4 (Class A, B, C)."
+      },
+      {
+        "key": "b",
+        "text": "IPv6 addresses are typically represented in hexadecimal, separated by colons."
+      },
+      {
+        "key": "c",
+        "text": "IPv6 eliminates the need for fragmentation by intermediate routers."
+      },
+      {
+        "key": "d",
+        "text": "The base header size of IPv6 is variable, ranging from 20 to 60 bytes."
+      }
+    ],
+    "correct": [
+      "a",
+      "d"
+    ],
+    "answerText": "a, d",
+    "explanation": "Review the relevant Week 3 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w4-a1",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "single",
+    "prompt": "What is the primary purpose of a Hypervisor in a penetration testing lab setup?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It encrypts all network traffic between virtual machines."
+      },
+      {
+        "key": "b",
+        "text": "It allows creation and management of multiple virtual machines on a single physical system."
+      },
+      {
+        "key": "c",
+        "text": "It is a hack-proof security layer for the host OS."
+      },
+      {
+        "key": "d",
+        "text": "It automatically patches vulnerabilities on guest machines."
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 4 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w4-a2",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "single",
+    "prompt": "Which of the following information CANNOT typically be retrieved using a Whois lookup?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Domain registration details"
+      },
+      {
+        "key": "b",
+        "text": "Name servers"
+      },
+      {
+        "key": "c",
+        "text": "Registrant contact information"
+      },
+      {
+        "key": "d",
+        "text": "Historical snapshots of the website"
+      },
+      {
+        "key": "e",
+        "text": "Domain expiration date"
+      }
+    ],
+    "correct": [
+      "d"
+    ],
+    "answerText": "d",
+    "explanation": "Review the relevant Week 4 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w4-a3",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "single",
+    "prompt": "How does host discovery using an ICMP Echo sweep work?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An ICMP type-8 request is sent, and an ICMP type-0 reply confirms the host is alive."
+      },
+      {
+        "key": "b",
+        "text": "A TCP SYN packet is sent, and an ACK confirms the host is alive."
+      },
+      {
+        "key": "c",
+        "text": "It broadcasts ARP requests to identify all hosts on the segment."
+      },
+      {
+        "key": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 4 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w4-a4",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "multi",
+    "prompt": "Which NMAP option(s) can be used to perform a TCP-based host discovery sweep?",
+    "options": [
+      {
+        "key": "a",
+        "text": "-PE"
+      },
+      {
+        "key": "b",
+        "text": "-PS"
+      },
+      {
+        "key": "c",
+        "text": "-PA"
+      },
+      {
+        "key": "d",
+        "text": "-PU"
+      },
+      {
+        "key": "e",
+        "text": "-PM"
+      }
+    ],
+    "correct": [
+      "b",
+      "c"
+    ],
+    "answerText": "b, c",
+    "explanation": "Review the relevant Week 4 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w4-a5",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "single",
+    "prompt": "During the TCP three-way handshake, what type of message does the client send first to initiate the connection?",
+    "options": [
+      {
+        "key": "a",
+        "text": "ACK"
+      },
+      {
+        "key": "b",
+        "text": "SYN"
+      },
+      {
+        "key": "c",
+        "text": "SYN-ACK"
+      },
+      {
+        "key": "d",
+        "text": "RST"
+      },
+      {
+        "key": "e",
+        "text": "FIN"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 4 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w4-a6",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "multi",
+    "prompt": "In a TCP SYN (stealth) scan, which packet response(s) indicates that a port is open or closed, respectively?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SYN-ACK received indicates the port is open."
+      },
+      {
+        "key": "b",
+        "text": "RST received indicates the port is closed."
+      },
+      {
+        "key": "c",
+        "text": "ACK received indicates the port is open."
+      },
+      {
+        "key": "d",
+        "text": "FIN received indicates the port is open."
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "answerText": "a, b",
+    "explanation": "Review the relevant Week 4 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w4-a7",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are true regarding the default networking mode (NAT) in Oracle VirtualBox?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It assigns a unique public IP address to each virtual machine."
+      },
+      {
+        "key": "b",
+        "text": "It assigns the same private/virtual IP address to guest operating systems."
+      },
+      {
+        "key": "c",
+        "text": "Virtual machines using this mode can access the internet."
+      },
+      {
+        "key": "d",
+        "text": "It assigns the host system's IP address directly to guest machines."
+      },
+      {
+        "key": "e",
+        "text": "Virtual machines using NAT mode are directly reachable from outside the host by default."
+      }
+    ],
+    "correct": [
+      "b",
+      "c"
+    ],
+    "answerText": "b, c",
+    "explanation": "The default NAT networking mode in VirtualBox assigns a virtual/private IP address to guest machines, and it allows internet access from within the guest. It does not assign unique public IPs, does not share the host's own IP address, and guests are not directly reachable from outside by default (NAT hides them behind the host). Thus, the correct options are (b) and (c)."
+  },
+  {
+    "id": "w4-a8",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "multi",
+    "prompt": "Which of the following NMAP option(s) can be used for OS and/or service version detection?",
+    "options": [
+      {
+        "key": "a",
+        "text": "-sn"
+      },
+      {
+        "key": "b",
+        "text": "O"
+      },
+      {
+        "key": "c",
+        "text": "sV"
+      },
+      {
+        "key": "d",
+        "text": "-Pn"
+      },
+      {
+        "key": "e",
+        "text": "A"
+      }
+    ],
+    "correct": [
+      "b",
+      "c",
+      "e"
+    ],
+    "answerText": "b, c, e",
+    "explanation": "Review the relevant Week 4 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w4-a9",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 9,
+    "type": "single",
+    "prompt": "If ports 80 and 443 are found open on a target system, what can be reasonably inferred?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The target is very likely running SSH services."
+      },
+      {
+        "key": "b",
+        "text": "The target is very likely hosting a website (HTTP/HTTPS)."
+      },
+      {
+        "key": "c",
+        "text": "The target is running a mail server."
+      },
+      {
+        "key": "d",
+        "text": "The target is running a DNS resolver."
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 4 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w4-a10",
+    "week": 4,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 10,
+    "type": "single",
+    "prompt": "If the --reason option is used along with a SYN scan. Which of the following is/are correct if reason field shows “syn-ack”?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The port is open because NMAP received a SYN-ACK response from the target."
+      },
+      {
+        "key": "b",
+        "text": "The port is closed, and no evidence is available."
+      },
+      {
+        "key": "c",
+        "text": "The target sent an RST packet in response."
+      },
+      {
+        "key": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 4 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w5-a1",
+    "week": 5,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "multi",
+    "prompt": "Which of the following NMAP option(s) can trigger execution of NMAP scripts?",
+    "options": [
+      {
+        "key": "a",
+        "text": "-A"
+      },
+      {
+        "key": "b",
+        "text": "-sC"
+      },
+      {
+        "key": "c",
+        "text": "-Pn"
+      },
+      {
+        "key": "d",
+        "text": "--script=default"
+      },
+      {
+        "key": "e",
+        "text": "-sn"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "answerText": "a, b, d",
+    "explanation": "Review the relevant Week 5 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w5-a2",
+    "week": 5,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "multi",
+    "prompt": "Which of the following tool(s)/software CANNOT be used for vulnerability scanning?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Nessus"
+      },
+      {
+        "key": "b",
+        "text": "Hydra"
+      },
+      {
+        "key": "c",
+        "text": "Nexpose"
+      },
+      {
+        "key": "d",
+        "text": "Crunch"
+      },
+      {
+        "key": "e",
+        "text": "NMAP"
+      }
+    ],
+    "correct": [
+      "b",
+      "d"
+    ],
+    "answerText": "b, d",
+    "explanation": "Review the relevant Week 5 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w5-a3",
+    "week": 5,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "single",
+    "prompt": "Which of the following is NOT considered a common password cracking approach?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Dictionary attack"
+      },
+      {
+        "key": "b",
+        "text": "Brute-force attack"
+      },
+      {
+        "key": "c",
+        "text": "Rule-based attack"
+      },
+      {
+        "key": "d",
+        "text": "Packet sniffing"
+      },
+      {
+        "key": "e",
+        "text": "Shoulder surfing"
+      }
+    ],
+    "correct": [
+      "d"
+    ],
+    "answerText": "d",
+    "explanation": "Review the relevant Week 5 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w5-a4",
+    "week": 5,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "single",
+    "prompt": "Which protocol in TCP/IP is connectionless and does not provide reliability?",
+    "options": [
+      {
+        "key": "a",
+        "text": "TCP"
+      },
+      {
+        "key": "b",
+        "text": "UDP"
+      },
+      {
+        "key": "c",
+        "text": "FTP"
+      },
+      {
+        "key": "d",
+        "text": "TELNET"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 5 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w5-a5",
+    "week": 5,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "single",
+    "prompt": "Which tool is primarily used to generate custom wordlists for use in dictionary-based password attacks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hydra"
+      },
+      {
+        "key": "b",
+        "text": "Nessus"
+      },
+      {
+        "key": "c",
+        "text": "Crunch"
+      },
+      {
+        "key": "d",
+        "text": "Wireshark"
+      },
+      {
+        "key": "e",
+        "text": "Hashcat"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 5 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w5-a6",
+    "week": 5,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "single",
+    "prompt": "Which of the following statement(s) is/are false regarding malware?",
+    "options": [
+      {
+        "key": "a",
+        "text": "All malware types are capable of self-replication."
+      },
+      {
+        "key": "b",
+        "text": "Malware can grant partial or full control of a system to an attacker."
+      },
+      {
+        "key": "c",
+        "text": "Malware can be delivered through file sharing or fake/pirated software."
+      },
+      {
+        "key": "d",
+        "text": "Malware can modify, corrupt, or delete data on infected systems."
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 5 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w5-a7",
+    "week": 5,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "single",
+    "prompt": "In a MAC flooding attack, what is the primary goal of overwhelming a switch's CAM table?",
+    "options": [
+      {
+        "key": "a",
+        "text": "To crash the switch permanently."
+      },
+      {
+        "key": "b",
+        "text": "To force the switch to behave like a hub, broadcasting traffic to all ports."
+      },
+      {
+        "key": "c",
+        "text": "To increase the switch's available memory."
+      },
+      {
+        "key": "d",
+        "text": "To disable the switch's power supply."
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 5 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w5-a8",
+    "week": 5,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "single",
+    "prompt": "Which of the following NMAP script(s) is/are used specifically for identifying the operating system of an SMB-enabled target?",
+    "options": [
+      {
+        "key": "a",
+        "text": "smb-os-discovery"
+      },
+      {
+        "key": "b",
+        "text": "smb-brute"
+      },
+      {
+        "key": "c",
+        "text": "http-os-brute"
+      },
+      {
+        "key": "d",
+        "text": "smb-enum-users"
+      },
+      {
+        "key": "e",
+        "text": "ssh-brute."
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 5 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w6-a1",
+    "week": 6,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "single",
+    "prompt": "Which of the following attack types involves an attacker pretending to be a legitimate entity to gain unauthorized access?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Replay attack"
+      },
+      {
+        "key": "b",
+        "text": "Masquerade attack"
+      },
+      {
+        "key": "c",
+        "text": "Modification attack"
+      },
+      {
+        "key": "d",
+        "text": "Denial of service attack"
+      },
+      {
+        "key": "e",
+        "text": "Traffic analysis"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 6 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w6-a2",
+    "week": 6,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "single",
+    "prompt": "Encrypt the plaintext “SECURE” using a substitution cipher where each letter is replaced by its k-th next letter, assuming alphabets wrap around (Z followed by A) and k = 3.",
+    "options": [
+      {
+        "key": "a",
+        "text": "VHFXUH"
+      },
+      {
+        "key": "b",
+        "text": "VFEXRU"
+      },
+      {
+        "key": "c",
+        "text": "UHFXVH"
+      },
+      {
+        "key": "d",
+        "text": "VHFXRV"
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 6 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w6-a3",
+    "week": 6,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "single",
+    "prompt": "Consider a mono-alphabetic cipher with the key mapping: (A B C D E F G H I J K L M N O P Q R S T U V W X Y Z) mapped to (Q W E R T Y U I O P A S D F G H J K L Z X C V B N M). What will be the encrypted form of the message “CODE”?",
+    "options": [
+      {
+        "key": "a",
+        "text": "EGRT"
+      },
+      {
+        "key": "b",
+        "text": "EGDT"
+      },
+      {
+        "key": "c",
+        "text": "EODT"
+      },
+      {
+        "key": "d",
+        "text": "EGDR"
+      },
+      {
+        "key": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 6 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w6-a4",
+    "week": 6,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "single",
+    "prompt": "Which of the following statement(s) is/are false regarding hashing algorithms used for message integrity?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A good hash function should be resistant to collisions."
+      },
+      {
+        "key": "b",
+        "text": "The same input will always produce the same hash output."
+      },
+      {
+        "key": "c",
+        "text": "A hash function can be reversed to retrieve the original message."
+      },
+      {
+        "key": "d",
+        "text": "Even a small change in input should produce a significantly different hash output."
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 6 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w6-a5",
+    "week": 6,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "single",
+    "prompt": "Decrypt the ciphertext \"KHOOR\" which was encrypted using a substitution cipher with a shift of k = 3 (each letter replaced by its k-th next letter during encryption, the alphabets wrap around).",
+    "options": [
+      {
+        "key": "a",
+        "text": "HELLO"
+      },
+      {
+        "key": "b",
+        "text": "WORLD"
+      },
+      {
+        "key": "c",
+        "text": "HELPS"
+      },
+      {
+        "key": "d",
+        "text": "HFLLO"
+      },
+      {
+        "key": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 6 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w6-a6",
+    "week": 6,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "single",
+    "prompt": "A DoS attack that makes a system or service inaccessible to legitimate users falls under which category of security attack?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Interruption"
+      },
+      {
+        "key": "b",
+        "text": "Interception"
+      },
+      {
+        "key": "c",
+        "text": "Modification"
+      },
+      {
+        "key": "d",
+        "text": "Fabrication"
+      },
+      {
+        "key": "e",
+        "text": "Replay"
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 6 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w6-a7",
+    "week": 6,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "single",
+    "prompt": "For encryption using public-key cryptography, if sender A wants to send a confidential message to receiver B, which key is used to encrypt the message?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A's private key"
+      },
+      {
+        "key": "b",
+        "text": "A's public key"
+      },
+      {
+        "key": "c",
+        "text": "B's public key"
+      },
+      {
+        "key": "d",
+        "text": "B's private key"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 6 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w7-a1",
+    "week": 7,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "multi",
+    "prompt": "A message M is fed to a hash function to generate hash value H = HASH(M). Which of the following statement(s) is/are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The number of bits in H is typically much smaller than the number of bits in M."
+      },
+      {
+        "key": "b",
+        "text": "The number of bits in H and M are always exactly equal."
+      },
+      {
+        "key": "c",
+        "text": "Hashing produces a fixed-length output regardless of input size."
+      },
+      {
+        "key": "d",
+        "text": "The output length of a hash function grows proportionally with the input length."
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "answerText": "a, c",
+    "explanation": "Review the relevant Week 7 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w7-a2",
+    "week": 7,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are true?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The block size of DES is 64 bits."
+      },
+      {
+        "key": "b",
+        "text": "The key size of DES is 128 bits."
+      },
+      {
+        "key": "c",
+        "text": "The hash digest size of MD5 is 128 bits."
+      },
+      {
+        "key": "d",
+        "text": "SHA-256 produces a 512-bit digest."
+      },
+      {
+        "key": "e",
+        "text": "Triple DES uses a fixed 512-bit key."
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "answerText": "a, c",
+    "explanation": "Review the relevant Week 7 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w7-a3",
+    "week": 7,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "single",
+    "prompt": "Which of the following statement(s) is/are true regarding SSL/TLS protocols?",
+    "options": [
+      {
+        "key": "a",
+        "text": "HTTPS relies on SSL/TLS to secure HTTP communication."
+      },
+      {
+        "key": "b",
+        "text": "SSL/TLS guarantees faster data transmission compared to plain HTTP."
+      },
+      {
+        "key": "c",
+        "text": "TLS operates at the physical layer of the network stack."
+      },
+      {
+        "key": "d",
+        "text": "The SSL Record Protocol guarantees non-repudiation of the sender."
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 7 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w7-a4",
+    "week": 7,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "single",
+    "prompt": "Which of the following statement(s) is/are true regarding collision resistance in hash functions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a weaker requirement than second preimage resistance."
+      },
+      {
+        "key": "b",
+        "text": "It should be computationally difficult to find any two distinct messages producing the same hash."
+      },
+      {
+        "key": "c",
+        "text": "Collision resistance guarantees encryption confidentiality."
+      },
+      {
+        "key": "d",
+        "text": "Collision resistance is trivial to achieve for any hash function design."
+      },
+      {
+        "key": "e",
+        "text": "Collision resistance applies only to keyed hash functions (MACs)."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 7 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w7-a5",
+    "week": 7,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "multi",
+    "prompt": "NPTEL Online Certification Courses Indian Institute of Technology Kharagpur Which of the following statement(s) is/are true regarding digital signature verification?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The verifier uses the signer's public key to verify a signature."
+      },
+      {
+        "key": "b",
+        "text": "The verifier uses the signer's private key to verify a signature."
+      },
+      {
+        "key": "c",
+        "text": "Successful verification confirms the message has not been altered and was signed by the claimed signer."
+      },
+      {
+        "key": "d",
+        "text": "Verification requires the signer to be online and actively participating."
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "answerText": "a, c",
+    "explanation": "Review the relevant Week 7 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w7-a6",
+    "week": 7,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "single",
+    "prompt": "Which property of digital signatures ensures that the original signer cannot later deny having signed a message?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "b",
+        "text": "Integrity"
+      },
+      {
+        "key": "c",
+        "text": "Non-repudiation"
+      },
+      {
+        "key": "d",
+        "text": "Availability"
+      },
+      {
+        "key": "e",
+        "text": "Authentication"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 7 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w7-a7",
+    "week": 7,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "single",
+    "prompt": "Which of the following statements is false regarding keyed vs unkeyed hash functions?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An unkeyed hash function can be used to verify data integrity when the hash value is obtained from a trusted source."
+      },
+      {
+        "key": "b",
+        "text": "A keyed hash function requires a secret key as part of its computation."
+      },
+      {
+        "key": "c",
+        "text": "An unkeyed hash function inherently provides authenticity."
+      },
+      {
+        "key": "d",
+        "text": "HMAC can be used to provide both integrity and a degree of authentication."
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 7 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w7-a8",
+    "week": 7,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "single",
+    "prompt": "In IPSec, which mode encrypts/protects only the payload (transport layer data) while keeping the original IP header intact?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Tunnel mode"
+      },
+      {
+        "key": "b",
+        "text": "Transport mode"
+      },
+      {
+        "key": "c",
+        "text": "Replay mode"
+      },
+      {
+        "key": "d",
+        "text": "Confidential mode"
+      },
+      {
+        "key": "e",
+        "text": "None of these"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 7 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w8-a1",
+    "week": 8,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "single",
+    "prompt": "Which of the following statements best describes steganography?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Encrypting information using public and private keys."
+      },
+      {
+        "key": "b",
+        "text": "Embedding information within another cover medium."
+      },
+      {
+        "key": "c",
+        "text": "Tunnelling data using HTTPS and TLS."
+      },
+      {
+        "key": "d",
+        "text": "Compressing data to reduce its transmission size."
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 8 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w8-a2",
+    "week": 8,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "multi",
+    "prompt": "Which of the following are valid examples of steganography?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hiding text data within an image file."
+      },
+      {
+        "key": "b",
+        "text": "Hiding secret data within an audio clip."
+      },
+      {
+        "key": "c",
+        "text": "Encrypting a file so only the recipient can decrypt it."
+      },
+      {
+        "key": "d",
+        "text": "Hiding data within an executable file."
+      },
+      {
+        "key": "e",
+        "text": "Digitally signing a document to prove authorship."
+      },
+      {
+        "key": "f",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "answerText": "a, b, d",
+    "explanation": "Review the relevant Week 8 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w8-a3",
+    "week": 8,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "multi",
+    "prompt": "Which of the following is/are examples of behavioural biometrics?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Fingerprint"
+      },
+      {
+        "key": "b",
+        "text": "Signature dynamics"
+      },
+      {
+        "key": "c",
+        "text": "Gait"
+      },
+      {
+        "key": "d",
+        "text": "Iris pattern"
+      },
+      {
+        "key": "e",
+        "text": "Keystroke dynamics"
+      },
+      {
+        "key": "f",
+        "text": "Retina pattern g. Facial structure"
+      }
+    ],
+    "correct": [
+      "b",
+      "c",
+      "e"
+    ],
+    "answerText": "b, c, e",
+    "explanation": "Review the relevant Week 8 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w8-a4",
+    "week": 8,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "single",
+    "prompt": "Which biometric modality is generally considered to offer very high uniqueness and reliability for identification?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Voice recognition"
+      },
+      {
+        "key": "b",
+        "text": "Facial recognition"
+      },
+      {
+        "key": "c",
+        "text": "Iris scan"
+      },
+      {
+        "key": "d",
+        "text": "Signature dynamics"
+      },
+      {
+        "key": "e",
+        "text": "Gait analysis"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 8 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w8-a5",
+    "week": 8,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "single",
+    "prompt": "What is a Denial-of-Service (DoS) attack?",
+    "options": [
+      {
+        "key": "a",
+        "text": "An attack that deletes or modifies files stored on a system."
+      },
+      {
+        "key": "b",
+        "text": "An attack that prevents legitimate users from accessing a service."
+      },
+      {
+        "key": "c",
+        "text": "An attack that specifically targets and destroys stored password databases."
+      },
+      {
+        "key": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 8 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w8-a6",
+    "week": 8,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "single",
+    "prompt": "How does a Smurf DoS attack typically work?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It sends oversized IP packets to crash the target host."
+      },
+      {
+        "key": "b",
+        "text": "It sends forged ICMP Echo requests to a network's broadcast address with the victim's spoofed source IP, causing many hosts to flood the victim with replies."
+      },
+      {
+        "key": "c",
+        "text": "It exploits buffer overflow vulnerability in web server software."
+      },
+      {
+        "key": "d",
+        "text": "It uses SQL injections to compromise a backend database."
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 8 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w8-a7",
+    "week": 8,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "single",
+    "prompt": "Which of the following attacks exploits the TCP three-way handshake by leaving connections in a half-open state?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Ping of Death attack"
+      },
+      {
+        "key": "b",
+        "text": "SYN flooding attack"
+      },
+      {
+        "key": "c",
+        "text": "Smurf attack"
+      },
+      {
+        "key": "d",
+        "text": "DNS spoofing attack"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 8 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w8-a8",
+    "week": 8,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "multi",
+    "prompt": "What does PGP (Pretty Good Privacy) primarily provide for secure email communication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Authentication of the sender"
+      },
+      {
+        "key": "b",
+        "text": "Confidentiality of the message content"
+      },
+      {
+        "key": "c",
+        "text": "Guaranteed message availability"
+      },
+      {
+        "key": "d",
+        "text": "Protection against email spam filtering"
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "answerText": "a, b",
+    "explanation": "Review the relevant Week 8 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w8-a9",
+    "week": 8,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 9,
+    "type": "single",
+    "prompt": "What is the primary purpose of the Domain Name System (DNS)? NPTEL Online Certification Courses Indian Institute of Technology Kharagpur",
+    "options": [
+      {
+        "key": "a",
+        "text": "To provide end-to-end encryption for email communication."
+      },
+      {
+        "key": "b",
+        "text": "To translate human-readable domain names into IP addresses."
+      },
+      {
+        "key": "c",
+        "text": "To compress and fragment large network messages."
+      },
+      {
+        "key": "d",
+        "text": "To hide secret data inside cover media files."
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 8 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a1",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are true for sniffing?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It is a process of analyzing network activity by capturing network traffic."
+      },
+      {
+        "key": "b",
+        "text": "It is a process of finding vulnerabilities in a network."
+      },
+      {
+        "key": "c",
+        "text": "It is a process used for user enumeration."
+      },
+      {
+        "key": "d",
+        "text": "It may require the NIC to operate in promiscuous mode to capture frames not specifically addressed to the host."
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "a",
+      "d"
+    ],
+    "answerText": "a, d",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a2",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "multi",
+    "prompt": "Which of the following is/are not a feature of Wireshark?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Capturing and analyzing network packets."
+      },
+      {
+        "key": "b",
+        "text": "Generating statistical reports on captured traffic."
+      },
+      {
+        "key": "c",
+        "text": "Manipulating and modifying live network traffic."
+      },
+      {
+        "key": "d",
+        "text": "Displaying packet details with GUI support."
+      },
+      {
+        "key": "e",
+        "text": "Carrying out SQL injection attacks."
+      },
+      {
+        "key": "f",
+        "text": "Filtering captured packets by protocol."
+      }
+    ],
+    "correct": [
+      "c",
+      "e"
+    ],
+    "answerText": "c, e",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a3",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "multi",
+    "prompt": "Which of the following protocols are vulnerable to sniffing attacks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "HTTP"
+      },
+      {
+        "key": "b",
+        "text": "FTP"
+      },
+      {
+        "key": "c",
+        "text": "Telnet"
+      },
+      {
+        "key": "d",
+        "text": "HTTPS"
+      },
+      {
+        "key": "e",
+        "text": "SSL"
+      },
+      {
+        "key": "f",
+        "text": "SSH"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "answerText": "a, b, c",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a4",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "multi",
+    "prompt": "Which of the following feature(s) is/are not present in the Ettercap tool?",
+    "options": [
+      {
+        "key": "a",
+        "text": "IP-based and MAC-based filtering."
+      },
+      {
+        "key": "b",
+        "text": "Character injection into live connections."
+      },
+      {
+        "key": "c",
+        "text": "Packet filtering and dropping."
+      },
+      {
+        "key": "d",
+        "text": "SQL injection automation."
+      },
+      {
+        "key": "e",
+        "text": "Password cracking via dictionary attack."
+      }
+    ],
+    "correct": [
+      "d",
+      "e"
+    ],
+    "answerText": "d, e",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a5",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "single",
+    "prompt": "Which of the following is not a human-based social engineering attack?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Impersonation"
+      },
+      {
+        "key": "b",
+        "text": "Shoulder surfing"
+      },
+      {
+        "key": "c",
+        "text": "Piggybacking/tailgating"
+      },
+      {
+        "key": "d",
+        "text": "Phishing email"
+      }
+    ],
+    "correct": [
+      "d"
+    ],
+    "answerText": "d",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a6",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "single",
+    "prompt": "A DoS attack that exploits the TCP three-way handshake by leaving connections incomplete is called:",
+    "options": [
+      {
+        "key": "a",
+        "text": "SYN Flooding"
+      },
+      {
+        "key": "b",
+        "text": "ICMP Flood"
+      },
+      {
+        "key": "c",
+        "text": "Ping of Death"
+      },
+      {
+        "key": "d",
+        "text": "UDP Flood"
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a7",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "single",
+    "prompt": "Which tool is specifically known for performing DoS attacks by sending partial HTTP requests and never completing them?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Hydra"
+      },
+      {
+        "key": "b",
+        "text": "Wireshark"
+      },
+      {
+        "key": "c",
+        "text": "Slowloris"
+      },
+      {
+        "key": "d",
+        "text": "Crunch"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a8",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "single",
+    "prompt": "Which mode allows a network interface card (NIC) to capture frames that are not specifically addressed to the host?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Monitor mode"
+      },
+      {
+        "key": "b",
+        "text": "Transparent mode"
+      },
+      {
+        "key": "c",
+        "text": "Promiscuous mode"
+      },
+      {
+        "key": "d",
+        "text": "Bridge mode"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a9",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 9,
+    "type": "multi",
+    "prompt": "Which of the following is/are examples of computer-based social engineering attacks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Phishing emails"
+      },
+      {
+        "key": "b",
+        "text": "Pop-up window scams"
+      },
+      {
+        "key": "c",
+        "text": "Shoulder surfing"
+      },
+      {
+        "key": "d",
+        "text": "Chain letter emails"
+      },
+      {
+        "key": "e",
+        "text": "Tailgating"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "answerText": "a, b, d",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w9-a10",
+    "week": 9,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 10,
+    "type": "single",
+    "prompt": "What is the primary purpose of ARP spoofing in the context of sniffing attacks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "To increase the bandwidth available to the attacker."
+      },
+      {
+        "key": "b",
+        "text": "To redirect traffic between two hosts through the attacker's machine for interception."
+      },
+      {
+        "key": "c",
+        "text": "To encrypt network traffic for secure transmission."
+      },
+      {
+        "key": "d",
+        "text": "To permanently disable a target host's network interface."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 9 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w10-a1",
+    "week": 10,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "multi",
+    "prompt": "Which of the following are examples of hardware-based attacks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Physical probing"
+      },
+      {
+        "key": "b",
+        "text": "SQL injection"
+      },
+      {
+        "key": "c",
+        "text": "Cross-site scripting"
+      },
+      {
+        "key": "d",
+        "text": "Electromagnetic emission analysis"
+      },
+      {
+        "key": "e",
+        "text": "Phishing"
+      }
+    ],
+    "correct": [
+      "a",
+      "d"
+    ],
+    "answerText": "a, d",
+    "explanation": "Review the relevant Week 10 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w10-a2",
+    "week": 10,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are true regarding side-channel attacks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They exploit weaknesses in the implementation of an algorithm, not the algorithm itself."
+      },
+      {
+        "key": "b",
+        "text": "They may require physical access to (or close proximity to) the target device, depending on the side channel being exploited."
+      },
+      {
+        "key": "c",
+        "text": "They rely solely on analyzing input/output pairs of the algorithm."
+      },
+      {
+        "key": "d",
+        "text": "They can exploit information such as timing, power consumption, or electromagnetic emissions."
+      },
+      {
+        "key": "e",
+        "text": "They exploit mathematical weaknesses in the cryptographic algorithm's design."
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "answerText": "a, b, d",
+    "explanation": "Review the relevant Week 10 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w10-a3",
+    "week": 10,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "single",
+    "prompt": "For modular exponentiation of x22 using the square-and-multiply method, how many squaring and multiplication operations are required, respectively?",
+    "options": [
+      {
+        "key": "a",
+        "text": "4 and 2"
+      },
+      {
+        "key": "b",
+        "text": "3 and 2"
+      },
+      {
+        "key": "c",
+        "text": "4 and 3"
+      },
+      {
+        "key": "d",
+        "text": "5 and 2"
+      },
+      {
+        "key": "e",
+        "text": "3 and 3"
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 10 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w10-a4",
+    "week": 10,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are true regarding Differential Power Analysis (DPA) and Simple Power Analysis (SPA)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "DPA requires only a single power trace measurement."
+      },
+      {
+        "key": "b",
+        "text": "DPA requires multiple power trace measurements combined with statistical analysis."
+      },
+      {
+        "key": "c",
+        "text": "DPA uses statistical analysis of multiple traces to reveal information that may not be apparent from individual traces."
+      },
+      {
+        "key": "d",
+        "text": "DPA is generally less effective than SPA."
+      },
+      {
+        "key": "e",
+        "text": "SPA relies on directly observing patterns in a single or few traces. NPTEL Online Certification Courses Indian Institute of Technology Kharagpur"
+      }
+    ],
+    "correct": [
+      "b",
+      "c",
+      "e"
+    ],
+    "answerText": "b, c, e",
+    "explanation": "Review the relevant Week 10 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w10-a5",
+    "week": 10,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "single",
+    "prompt": "Which property of a PUF refers to the requirement that, given a PUF and an input (challenge) x, its corresponding output (response) y = PUF(x) can be computed efficiently?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Unclonability"
+      },
+      {
+        "key": "b",
+        "text": "One-wayness"
+      },
+      {
+        "key": "c",
+        "text": "Evaluability"
+      },
+      {
+        "key": "d",
+        "text": "Unpredictability"
+      },
+      {
+        "key": "e",
+        "text": "Tamper-evidence"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 10 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w10-a7",
+    "week": 10,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "single",
+    "prompt": "What is a hardware Trojan?",
+    "options": [
+      {
+        "key": "a",
+        "text": "A malicious software virus that specifically targets firmware update files."
+      },
+      {
+        "key": "b",
+        "text": "A malicious, intentional modification to a chip's circuitry that activates under specific trigger conditions."
+      },
+      {
+        "key": "c",
+        "text": "A testing tool used to validate hardware functionality before shipping."
+      },
+      {
+        "key": "d",
+        "text": "A feature designed to make hardware run faster under heavy load."
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 10 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w10-a8",
+    "week": 10,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "multi",
+    "prompt": "Which of the following statement(s) is/are true regarding hardware Trojans?",
+    "options": [
+      {
+        "key": "a",
+        "text": "They typically incur small hardware overhead, making them difficult to detect."
+      },
+      {
+        "key": "b",
+        "text": "They are generally easy to detect using a single, universal detection method."
+      },
+      {
+        "key": "c",
+        "text": "Detecting hardware Trojans often introduces additional design, testing, or runtime overhead."
+      },
+      {
+        "key": "d",
+        "text": "Hardware Trojans are exclusively inserted through software-level modifications."
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "answerText": "a, c",
+    "explanation": "Review the relevant Week 10 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w10-a9",
+    "week": 10,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 9,
+    "type": "single",
+    "prompt": "Which of the following hardware attack(s) are generally considered invasive in nature?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Black-box testing"
+      },
+      {
+        "key": "b",
+        "text": "Physical probing"
+      },
+      {
+        "key": "c",
+        "text": "Side-channel power analysis"
+      },
+      {
+        "key": "d",
+        "text": "Timing analysis"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 10 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w10-a10",
+    "week": 10,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 10,
+    "type": "multi",
+    "prompt": "Which of the following software-level technique(s) can help mitigate timing-based side-channel attacks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Introducing redundant/dummy computations to equalize execution time across branches."
+      },
+      {
+        "key": "b",
+        "text": "Masking sensitive intermediate data values during computation."
+      },
+      {
+        "key": "c",
+        "text": "Deliberately increasing overall program complexity without addressing timing variance."
+      },
+      {
+        "key": "d",
+        "text": "Ensuring constant-time implementations for security-critical operations."
+      }
+    ],
+    "correct": [
+      "a",
+      "d"
+    ],
+    "answerText": "a, d",
+    "explanation": "Review the relevant Week 10 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a1",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "single",
+    "prompt": "Which of the following Metasploit modules is used to take advantage of a known vulnerability on a target system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Payload"
+      },
+      {
+        "key": "b",
+        "text": "Exploit"
+      },
+      {
+        "key": "c",
+        "text": "Encoder"
+      },
+      {
+        "key": "d",
+        "text": "Auxiliary"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a2",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "single",
+    "prompt": "Which command is used to launch the Metasploit Framework console?",
+    "options": [
+      {
+        "key": "a",
+        "text": "msfvenom"
+      },
+      {
+        "key": "b",
+        "text": "msfconsole"
+      },
+      {
+        "key": "c",
+        "text": "metasploit-cli"
+      },
+      {
+        "key": "d",
+        "text": "msf-start"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a3",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "single",
+    "prompt": "Which Metasploit command is used to check which target operating systems are compatible with a selected exploit?",
+    "options": [
+      {
+        "key": "a",
+        "text": "show targets"
+      },
+      {
+        "key": "b",
+        "text": "set targets"
+      },
+      {
+        "key": "c",
+        "text": "check compatibility"
+      },
+      {
+        "key": "d",
+        "text": "show exploits"
+      },
+      {
+        "key": "e",
+        "text": "show payloads"
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a4",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "single",
+    "prompt": "Which Metasploit option is used to specify the target's IP address (the remote host to be attacked)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "set LHOST"
+      },
+      {
+        "key": "b",
+        "text": "set LPORT"
+      },
+      {
+        "key": "c",
+        "text": "set RHOST"
+      },
+      {
+        "key": "d",
+        "text": "set RPORT"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a5",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "single",
+    "prompt": "Which command in Metasploit's Meterpreter shell is used to retrieve stored user account password hashes from the target system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Getuid"
+      },
+      {
+        "key": "b",
+        "text": "Getsystem"
+      },
+      {
+        "key": "c",
+        "text": "Hashdump"
+      },
+      {
+        "key": "d",
+        "text": "Sysinfo"
+      },
+      {
+        "key": "e",
+        "text": "ps"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a6",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "single",
+    "prompt": "Which tool is specifically designed to perform brute-force discovery of hidden files and directories on a web server?",
+    "options": [
+      {
+        "key": "a",
+        "text": "SQLMAP"
+      },
+      {
+        "key": "b",
+        "text": "Dirb"
+      },
+      {
+        "key": "c",
+        "text": "Hydra"
+      },
+      {
+        "key": "d",
+        "text": "Crunch"
+      },
+      {
+        "key": "e",
+        "text": "Hashcat"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a7",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 7,
+    "type": "single",
+    "prompt": "If a web page is vulnerable to error-based SQL injection, what is the expected behavior upon incorrect/malicious user input?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It will display a database error message revealing information about the query structure."
+      },
+      {
+        "key": "b",
+        "text": "It will silently return no output at all."
+      },
+      {
+        "key": "c",
+        "text": "It will redirect the user to a login page automatically."
+      },
+      {
+        "key": "d",
+        "text": "It will crash the entire web server permanently."
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a8",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 8,
+    "type": "single",
+    "prompt": "Which SQLMAP option is used to list all database names available on the target system?",
+    "options": [
+      {
+        "key": "a",
+        "text": "--tables"
+      },
+      {
+        "key": "b",
+        "text": "--dbs"
+      },
+      {
+        "key": "c",
+        "text": "--dump"
+      },
+      {
+        "key": "d",
+        "text": "--current-db"
+      },
+      {
+        "key": "e",
+        "text": "--passwords"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a9",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 9,
+    "type": "multi",
+    "prompt": "Which of the following is/are recognized types of Cross-Site Scripting (XSS) attacks?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Stored XSS"
+      },
+      {
+        "key": "b",
+        "text": "Reflected XSS"
+      },
+      {
+        "key": "c",
+        "text": "DOM-based XSS"
+      },
+      {
+        "key": "d",
+        "text": "SQL-based XSS"
+      },
+      {
+        "key": "e",
+        "text": "Cookie-Injection XSS"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "answerText": "a, b, c",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w11-a10",
+    "week": 11,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 10,
+    "type": "multi",
+    "prompt": "Consider the following simplified query used by a login form: SELECT * FROM users WHERE username = 'INPUT1' AND password = 'INPUT2' Which of the following input(s) for the username field, if unsanitized, would represent a classic SQL injection attempt to bypass authentication?",
+    "options": [
+      {
+        "key": "a",
+        "text": "admin"
+      },
+      {
+        "key": "b",
+        "text": "admin' OR '1'='1"
+      },
+      {
+        "key": "c",
+        "text": "admin123"
+      },
+      {
+        "key": "d",
+        "text": "'OR 1=1 –"
+      },
+      {
+        "key": "e",
+        "text": "guest_user"
+      }
+    ],
+    "correct": [
+      "b",
+      "d"
+    ],
+    "answerText": "b, d",
+    "explanation": "Review the relevant Week 11 lecture material and compare each option with the concept being tested."
+  },
+  {
+    "id": "w12-a1",
+    "week": 12,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 1,
+    "type": "multi",
+    "prompt": "Which of the following can be done with the help of NMAP tool?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Determine the live host."
+      },
+      {
+        "key": "b",
+        "text": "Determine the services running on any target system."
+      },
+      {
+        "key": "c",
+        "text": "Determine the OS of the target systems."
+      },
+      {
+        "key": "d",
+        "text": "Identify the vulnerabilities of the target system."
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answerText": "a, b, c, d",
+    "explanation": "NMAP can perform all of the above operations (except option d). NMAP can perform password attack; however, it uses the default dictionary available in the system. The correct options are (a), (b), (c) and (d)."
+  },
+  {
+    "id": "w12-a2",
+    "week": 12,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 2,
+    "type": "single",
+    "prompt": "Which of the following options cannot be used for host discovery using NMAP?",
+    "options": [
+      {
+        "key": "a",
+        "text": "–PE"
+      },
+      {
+        "key": "b",
+        "text": "–PC"
+      },
+      {
+        "key": "c",
+        "text": "–PM"
+      },
+      {
+        "key": "d",
+        "text": "–PP"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "For host discovery using NMAP various options can be used, the most common option is ping sweep. –PE is used for ICMP ECHO Sweep, -PP and –PM is used for ICMP NON-ECHO ping sweep scanning. There is no option as –PC. The correct option is (b)."
+  },
+  {
+    "id": "w12-a3",
+    "week": 12,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 3,
+    "type": "single",
+    "prompt": "NPTEL Online Certification Courses Indian Institute of Technology Kharagpur In ICMP (ECHO) sweep scan, a scanner sends an ICMP type-8 packet and receives an ICMP type- 0 packet from target. What does it indicate?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Target is alive/up."
+      },
+      {
+        "key": "b",
+        "text": "Target is down."
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "If the sender receives ICMP type-0 packet, this indicates that the target is up. The correct option is (a)."
+  },
+  {
+    "id": "w12-a4",
+    "week": 12,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 4,
+    "type": "single",
+    "prompt": "Which of the following NMAP options can be used for TCP sweep scan?",
+    "options": [
+      {
+        "key": "a",
+        "text": "–PE"
+      },
+      {
+        "key": "b",
+        "text": "–PP"
+      },
+      {
+        "key": "c",
+        "text": "–PM"
+      },
+      {
+        "key": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "d"
+    ],
+    "answerText": "d",
+    "explanation": "TCP sweep is carried out using the –PS, –PU option in NMAP. It is also done by some default options such as –sT, -p, -Pn. The correct option is (d)."
+  },
+  {
+    "id": "w12-a5",
+    "week": 12,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 5,
+    "type": "single",
+    "prompt": "To see why NMAP is reporting any port as open or close (or a host as up or down) which of the following options is used?",
+    "options": [
+      {
+        "key": "a",
+        "text": "--disable-arp-ping"
+      },
+      {
+        "key": "b",
+        "text": "--packet-trace"
+      },
+      {
+        "key": "c",
+        "text": "--show-reason"
+      },
+      {
+        "key": "d",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "d"
+    ],
+    "answerText": "d",
+    "explanation": "disable-arp-ping option is used to disable arp request for host scanning, packet-trace option is used to trace the incoming and outgoing packets, reason option is used NPTEL Online Certification Courses Indian Institute of Technology Kharagpur to see why nmap is reporting any port as open or close or any host as up and down. There is no option called show-reason. The correct option is (d)."
+  },
+  {
+    "id": "w12-a6",
+    "week": 12,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 6,
+    "type": "multi",
+    "prompt": "Which of the following sweep scans are automatically done when we use –sn option.",
+    "options": [
+      {
+        "key": "a",
+        "text": "ICMP Echo"
+      },
+      {
+        "key": "b",
+        "text": "ICMP Non-Echo"
+      },
+      {
+        "key": "c",
+        "text": "TCP Sweep"
+      },
+      {
+        "key": "d",
+        "text": "UDP Sweep"
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "answerText": "a, b, c",
+    "explanation": "All type of sweep options are used with –sn option except UDP sweep. The correct options are (a), (b) and (c)."
+  },
+  {
+    "id": "w12-a9",
+    "week": 12,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 9,
+    "type": "single",
+    "prompt": "Which of the following NMAP options treats all hosts as online (skip host discovery)?",
+    "options": [
+      {
+        "key": "a",
+        "text": "–sP"
+      },
+      {
+        "key": "b",
+        "text": "–PO"
+      },
+      {
+        "key": "c",
+        "text": "–sU"
+      },
+      {
+        "key": "d",
+        "text": "–Pn"
+      }
+    ],
+    "correct": [
+      "d"
+    ],
+    "answerText": "d",
+    "explanation": "-sP is used for only determining if the host is online; -PO is used for IP protocol ping; -sU is used for UDP scan; -Pn is used to skip host discovery and treats all host as online The correct option is (d)."
+  },
+  {
+    "id": "w12-a10",
+    "week": 12,
+    "source": "NPTEL assignment solution in uploaded archive",
+    "number": 10,
+    "type": "single",
+    "prompt": "Which of the following NMAP options is used for Service and Version detection?",
+    "options": [
+      {
+        "key": "a",
+        "text": "–sL"
+      },
+      {
+        "key": "b",
+        "text": "–sP"
+      },
+      {
+        "key": "c",
+        "text": "–PO"
+      },
+      {
+        "key": "d",
+        "text": "–sU"
+      },
+      {
+        "key": "e",
+        "text": "None of these."
+      }
+    ],
+    "correct": [
+      "e"
+    ],
+    "answerText": "e",
+    "explanation": "For OS detection –O option is used, we can also use –A option which is known as aggressive scan which can be used for OS, version and vulnerability scanning, for services and version detection –sV option is used. The correct option is (e)."
+  },
+  {
+    "id": "w12-chat-1",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 1,
+    "type": "single",
+    "prompt": "In an ICMP Echo sweep, if the scanner receives an ICMP Type 0 packet in response to an ICMP Type 8 request, what does this indicate?",
+    "options": [
+      {
+        "key": "a",
+        "text": "The target host is alive/up"
+      },
+      {
+        "key": "b",
+        "text": "The target host is down"
+      },
+      {
+        "key": "c",
+        "text": "The target port is filtered"
+      },
+      {
+        "key": "d",
+        "text": "The target host does not support ICMP"
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "ICMP Type 8 is Echo Request; Type 0 is Echo Reply. A reply indicates the host responded."
+  },
+  {
+    "id": "w12-chat-2",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 2,
+    "type": "multi",
+    "prompt": "Which NMAP options can perform a TCP-based host-discovery sweep?",
+    "options": [
+      {
+        "key": "a",
+        "text": "-PE"
+      },
+      {
+        "key": "b",
+        "text": "-PS"
+      },
+      {
+        "key": "c",
+        "text": "-PA"
+      },
+      {
+        "key": "d",
+        "text": "-PU"
+      },
+      {
+        "key": "e",
+        "text": "-PM"
+      }
+    ],
+    "correct": [
+      "b",
+      "c"
+    ],
+    "answerText": "b, c",
+    "explanation": "-PS sends TCP SYN probes; -PA sends TCP ACK probes. -PE is ICMP Echo and -PU is UDP."
+  },
+  {
+    "id": "w12-chat-3",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 3,
+    "type": "single",
+    "prompt": "Which statement best describes nmap -sn?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It performs host discovery without port scanning"
+      },
+      {
+        "key": "b",
+        "text": "It skips host discovery and scans all ports"
+      },
+      {
+        "key": "c",
+        "text": "It only performs UDP port scanning"
+      },
+      {
+        "key": "d",
+        "text": "It lists targets without probing"
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "-sn disables port scanning and performs host discovery. Probe types depend on scan context and privileges; it does not mean all ICMP, TCP and UDP sweeps are always automatically performed."
+  },
+  {
+    "id": "w12-chat-4",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 4,
+    "type": "single",
+    "prompt": "Which NMAP option treats hosts as online and skips host discovery?",
+    "options": [
+      {
+        "key": "a",
+        "text": "-sL"
+      },
+      {
+        "key": "b",
+        "text": "-sP"
+      },
+      {
+        "key": "c",
+        "text": "-P0"
+      },
+      {
+        "key": "d",
+        "text": "-sU"
+      },
+      {
+        "key": "e",
+        "text": "-Pn"
+      }
+    ],
+    "correct": [
+      "e"
+    ],
+    "answerText": "e",
+    "explanation": "-Pn skips host discovery and treats each target as online for the requested scan."
+  },
+  {
+    "id": "w12-chat-5",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 5,
+    "type": "single",
+    "prompt": "Consider: (i) -sn performs host discovery only without port scanning. (ii) -Pn skips host discovery and treats hosts as online. Which is correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "Only (i) is true"
+      },
+      {
+        "key": "b",
+        "text": "Only (ii) is true"
+      },
+      {
+        "key": "c",
+        "text": "Both (i) and (ii) are true"
+      },
+      {
+        "key": "d",
+        "text": "Both are false"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "Both statements describe the options. -Pn does not itself mean “scan every port”; it skips discovery and proceeds with whatever scan was requested."
+  },
+  {
+    "id": "w12-chat-6",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 6,
+    "type": "multi",
+    "prompt": "Which statements about NMAP -F (fast scan) are correct?",
+    "options": [
+      {
+        "key": "a",
+        "text": "It scans the top 100 most common ports"
+      },
+      {
+        "key": "b",
+        "text": "It scans all 65,535 ports"
+      },
+      {
+        "key": "c",
+        "text": "It is faster than a default scan because it checks fewer ports"
+      },
+      {
+        "key": "d",
+        "text": "It is equivalent to --top-ports 1000"
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "answerText": "a, c",
+    "explanation": "-F scans fewer ports than the default scan; in current Nmap it scans the 100 most common ports."
+  },
+  {
+    "id": "w12-chat-7",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 7,
+    "type": "single",
+    "prompt": "Which NMAP option is specifically used to conduct a UDP port scan?",
+    "options": [
+      {
+        "key": "a",
+        "text": "-sT"
+      },
+      {
+        "key": "b",
+        "text": "-sS"
+      },
+      {
+        "key": "c",
+        "text": "-sU"
+      },
+      {
+        "key": "d",
+        "text": "-sA"
+      },
+      {
+        "key": "e",
+        "text": "-sN"
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "answerText": "c",
+    "explanation": "-sU selects UDP port scanning."
+  },
+  {
+    "id": "w12-chat-8",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 8,
+    "type": "single",
+    "prompt": "Which scanning technique completes the full TCP three-way handshake with the target port?",
+    "options": [
+      {
+        "key": "a",
+        "text": "TCP SYN scan"
+      },
+      {
+        "key": "b",
+        "text": "TCP Connect scan"
+      },
+      {
+        "key": "c",
+        "text": "FIN scan"
+      },
+      {
+        "key": "d",
+        "text": "NULL scan"
+      },
+      {
+        "key": "e",
+        "text": "Xmas scan"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "TCP Connect scan uses the operating system connect call and completes the TCP handshake. SYN scan is half-open."
+  },
+  {
+    "id": "w12-chat-9",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 9,
+    "type": "single",
+    "prompt": "How many ports will be scanned using nmap --top-ports 20 target_ip?",
+    "options": [
+      {
+        "key": "a",
+        "text": "20"
+      },
+      {
+        "key": "b",
+        "text": "100"
+      },
+      {
+        "key": "c",
+        "text": "1000"
+      },
+      {
+        "key": "d",
+        "text": "65535"
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "answerText": "a",
+    "explanation": "--top-ports 20 selects the 20 most common ports."
+  },
+  {
+    "id": "w12-chat-10",
+    "week": 12,
+    "source": "Quiz question shared in this chat (checked against Week 12 concepts)",
+    "number": 10,
+    "type": "single",
+    "prompt": "How many IP addresses are in the inclusive range nmap -sL 10.10.5.100-115?",
+    "options": [
+      {
+        "key": "a",
+        "text": "15"
+      },
+      {
+        "key": "b",
+        "text": "16"
+      },
+      {
+        "key": "c",
+        "text": "115"
+      },
+      {
+        "key": "d",
+        "text": "116"
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "answerText": "b",
+    "explanation": "The range includes .100 through .115: 115 - 100 + 1 = 16 addresses."
+  }
+]
